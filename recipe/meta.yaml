@@ -1,4 +1,4 @@
-{% set version = '0.1.12' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.machine.learning_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.machine.learning/paws.machine.learning_{{ version }}.tar.gz
-  sha256: 4af7e9feeb8232105688b1aeeeaefc79e61e0abbc2afbf6407655e5152f18207
+  sha256: 03c2b08f94d1c87ae16ccc8895f2286fb1ab20d1bd5b9ccc134d6fd04759bd5a
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -39,9 +39,7 @@ test:
 about:
   home: https://github.com/paws-r/paws
   license: Apache-2.0
-  summary: Interface to 'Amazon Web Services' machine learning services, including 'SageMaker'
-    managed machine learning service, natural language processing, speech recognition,
-    translation, and more <https://aws.amazon.com/machine-learning/>.
+  summary: Interface to 'Amazon Web Services' machine learning services, including 'SageMaker' managed machine learning service, natural language processing, speech recognition, translation, and more <https://aws.amazon.com/machine-learning/>.
   license_family: APACHE
   license_file: LICENSE.txt
 
