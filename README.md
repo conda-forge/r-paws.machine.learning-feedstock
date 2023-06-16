@@ -1,11 +1,11 @@
-About r-paws.machine.learning
-=============================
+About r-paws.machine.learning-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.machine.learning-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paws-r/paws
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.machine.learning-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'Amazon Web Services' machine learning services, including 'SageMaker' managed machine learning service, natural language processing, speech recognition, translation, and more <https://aws.amazon.com/machine-learning/>.
 
