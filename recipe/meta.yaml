@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.machine.learning_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.machine.learning/paws.machine.learning_{{ version }}.tar.gz
-  sha256: 7e6b66e037f3c964945439857705fbca2d657f38f664c26d9b587109cb2d5624
+  sha256: 41cc1ac98e72ed32aed1333c94a8adaac2c6f79d929646b021e4679e6fcc9533
 
 build:
   merge_build_host: true  # [win]
