@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.machine.learning_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.machine.learning/paws.machine.learning_{{ version }}.tar.gz
-  sha256: dbc135177fd13296c1a6bb714c4901747d186fd842cf5be40078d4fc724f1e1e
+  sha256: 2d74dba1d9a12618c5cd81e79cb06675cd356e38a9ec3148813f7e576fd5e2f8
 
 build:
   number: 0
